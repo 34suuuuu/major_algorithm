@@ -3,7 +3,7 @@ package A2Dfs;
 import java.util.ArrayList;
 import java.util.List;
 
-public class D1Basic {
+public class D1Basic1 {
 	static List<List<Integer>> adjList;
 	static boolean[] visited;
 
