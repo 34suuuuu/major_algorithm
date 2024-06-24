@@ -23,8 +23,8 @@ public class S1HeapSort구현 {
 		//        오른쪽노드 : node2 + 2
 		//        check1 : 왼쪽, 오른쪽 노드가 배열의 길이보다 짧아야함
 		//        check2 : node를 제외한 left, right 중 가장 작은 노드로 다시 heapify
-		int left = node + 1;
-		int right = node + 2;
+		int left = (node*2) + 1;
+		int right = (node*2) + 2;
 		if(left > arrLength)return;
 		if(right > arrLength){
 			//            node랑 left만 비교
